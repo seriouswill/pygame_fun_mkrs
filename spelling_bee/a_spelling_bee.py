@@ -8,7 +8,7 @@ pygame.init()
 WIDTH, HEIGHT = (1200, 600)
 window = pygame.display.set_mode((WIDTH, HEIGHT))
 
-pygame.display.set_caption("HANGMAN GAME!")
+pygame.display.set_caption("SPELLING BEE!")
 
 FPS = 60
 clock = pygame.time.Clock()
