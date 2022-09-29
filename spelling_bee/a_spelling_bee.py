@@ -45,7 +45,7 @@ for i in range(26):
 
 bee_status = 0
 words = ["CODING", "OBJECT", "ENCAPSULATION", "POLYMORPHISM", "INHERITANCE", "BLIMEY",
-         "FIDGETTY", "MAKERS", "LIMPET", "SECURITY", "INTERCONNECTIVITY", "ABSOLUTELY", ]
+         "FIDGET", "MAKERS", "PYGAME", "SECURITY", "CONNECTIVITY", "ABSOLUTELY", ]
 word = random.choice(words)
 guessed = []
 
@@ -67,13 +67,9 @@ def draw():
 
     window.fill(WHITE)
 
-    
-
     # DRAW TITLE
     text = TITLE_FONT.render("DEADLY SPELLING BEE!", 1, BLACK)
     window.blit(text, (WIDTH/2 - text.get_width()/2, 20))
-
-    
 
     # DRAW WORD
     display_word = ""
